@@ -1,42 +1,127 @@
-h1{
-   text-align: center; 
-   font-size: xx-large;
+* {
+padding: 10px;
 }
+
 nav ul li {
-    display: inline;
-    text-align: center;
-    
-}
-ul li {
-   padding:  20px;
+  display:inline-block
   
 }
-#HeroImg {
-    display:inline-block;
-}
-ul {
 
-    overflow: hidden;
-    background-color: #333;
-    
-  }
-  
-  li {
-    float: left;
-    color: lightgray;
-    
-  
-  }
- #selectionImg {
-width: 50%;
- }
- img{
-    width: 100%;
- }
+nav{
+   background-color:grey;
 
- span{
-    text-align: right;
-    overflow: scroll;
-    width: 350px;
-    height: 100px;
- }
+}
+li {
+   display: inline-block;
+   padding-right: 100px;
+   font-size: 20px;
+}
+
+ul{
+   
+   width: 960px;
+   padding: 20px;
+   margin-left: 350px;
+
+}
+
+
+a {
+   color: white;
+   text-decoration: none;
+}
+
+
+nav img:only-of-type {
+   margin-top: -100px;
+   margin-left: 30px;
+}
+
+
+
+#hero{
+   display: block;
+   width:960px ;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+
+
+section {
+   padding: 20px;
+   display: block;
+   width:960px;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+section img{
+   padding-right: 10px;
+}
+
+div{
+   display: block;
+   width: 960px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 20px;
+
+}
+
+
+div h3:only-of-type{
+   font-weight: bolder;
+   float: right;
+   font-size: 25px;
+margin-right: 200px;
+   
+}
+
+div p:only-of-type{
+   float: right;
+   font-size: 20px;
+   width: 400px;
+  height: 300px;
+  margin-right: 70px;
+  margin-top: -350px;
+  overflow-x:auto ;
+
+}
+
+div a:only-of-type{
+   float: right;
+   margin-right: 350px;
+   margin-top: -30px;
+   background-color: black;
+}
+div a:hover{
+   background-color: brown;
+   color: burlywood;
+}
+div:first-child{
+   float: left;
+   margin-left: 65px;
+   width: 50%;
+} 
+
+
+footer{
+   background: grey;
+   height: 60px;
+   width: 960px;
+   margin-left: auto;
+   margin-right: auto;
+}
+header {
+   width: 1000px;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
+nav{
+   width: 1000px;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
